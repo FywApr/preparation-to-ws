@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 20px 100px;
+}
+
+#lang-list {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  cursor: pointer;
+}
+
+.active {
+  font-weight: 900;
+}
